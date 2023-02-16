@@ -22,5 +22,7 @@ public class FictionBook extends Book implements Readable {
         System.out.println("Turning page of fiction book: " + getTitle());
     }
 
-
+    public double getPrice() {
+        return getNumPages() * 0.02; // prețul este de 2 bani pe pagină
+    }
 }

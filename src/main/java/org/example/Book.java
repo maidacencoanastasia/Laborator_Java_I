@@ -1,6 +1,6 @@
 package org.example;
 
-public class Book {
+public abstract class Book {
     private String title;
     private String author;
     private int numPages;
@@ -32,4 +32,5 @@ public class Book {
     public String getPublisher() {
         return publisher;
     }
+    public abstract double getPrice();
 }
