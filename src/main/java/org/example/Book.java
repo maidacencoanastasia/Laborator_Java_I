@@ -5,6 +5,7 @@ public class Book {
     private String author;
     private int numPages;
     private String publisher;
+    public static final double TAX_RATE = 0.5;
 
     // Constructor
     public Book(String title, String author, int numPages, String publisher) {
