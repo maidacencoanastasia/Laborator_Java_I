@@ -15,5 +15,20 @@ public class Book {
     }
 
     // Getters and setters
-    // ...
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public int getNumPages() {
+        return numPages;
+    }
+
+    public String getPublisher() {
+        return publisher;
+    }
 }
