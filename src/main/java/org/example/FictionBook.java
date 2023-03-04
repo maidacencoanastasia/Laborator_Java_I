@@ -1,7 +1,7 @@
 package org.example;
 
 public class FictionBook extends Book implements Readable {
-    private String genre;
+    private final String genre;
 
     // Constructor
     public FictionBook(String title, String author, int numPages, String publisher, String genre) {

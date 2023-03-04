@@ -1,11 +1,11 @@
 package org.example;
 
 public abstract class Book {
-    private String title;
-    private String author;
-    private int numPages;
-    private String publisher;
     public static final double TAX_RATE = 0.5;
+    private final String title;
+    private final String author;
+    private final int numPages;
+    private final String publisher;
 
     // Constructor
     public Book(String title, String author, int numPages, String publisher) {
@@ -32,5 +32,6 @@ public abstract class Book {
     public String getPublisher() {
         return publisher;
     }
+
     public abstract double getPrice();
 }
